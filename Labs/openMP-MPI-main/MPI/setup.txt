@@ -1,0 +1,11 @@
+#include <mpi.h>
+
+
+mpicc <filename.c> -o <filename>
+mpirun ./<filename>
+
+//to specify the threads
+mpirun -np 5 ./<filename>
+
+//if mpirun is not working, add the flag
+mpirun --allow-run-as-root ./<filename>

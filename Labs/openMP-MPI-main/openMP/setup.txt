@@ -1,0 +1,21 @@
+// we can directly run openmp code. 
+// This cloud device has 2 core
+// 
+
+//OpenMP header
+#include <omp.h>
+
+#pragma omp parallel
+{
+  //Parallel region code 
+} 
+
+
+// we can set the number of threads to execute the program using the external variable. 
+export OMP_NUM_THREADS=5
+
+//compile openMP file 
+gcc -o <name> -fopenmp <filename.cpp>
+
+//run the compiled file
+./<name>
