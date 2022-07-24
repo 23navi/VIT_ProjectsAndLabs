@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".News7">
+
+    <TextView
+        android:id="@+id/h7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginRight="164dp"
+        android:text="SIC"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:text="Chuck Todd: ’BuzzFeed Did Donald Trump a Political Favor’ - Breitbart"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/h7" />
+
+    <TextView
+        android:id="@+id/a7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:text="Jeff Poor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title7" />
+
+    <TextView
+        android:id="@+id/t7"
+        android:layout_width="299dp"
+        android:layout_height="410dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:gravity="center"
+        android:text="Wednesday after   Donald Trump’s press conference at Trump Tower in New York City, NBC “Meet the Press” moderator Chuck Todd expressed his exasperation over the normalcy of what he called a “circus” surrounding Trump’s event.  “I was struck big picture wise which is of how normal a circus is now to us,” Todd said. “This was a circus. We’ve never seen a   a transition like we saw today where the press conference gets interrupted, you have a lawyer in here. The lawyer does half legal talk, half political spin. I’ve never seen that, using the lawyer to say he’s here to make America great again, and by the way I’m going to play constitutional lawyer. I don’t think this but clearly a constitutional lawyer told us we better not accept any of this money. So they made that exception. So I am struck at how normal crazy looked to us today. This was just a crazy scene, but this is the norm of Donald Trump. And in fact, this is where he’s most comfortable. And I will say this. just as a political show. if you’re Donald Trump, you want these press conferences because it made the press look disjointed, unorganized, all this stuff. And his people, you know, he just, it was a performance for his supporters and his people. ”"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a7" />
+
+    <Button
+        android:id="@+id/c7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginRight="132dp"
+        android:onClick="alert7"
+        android:text="CHECK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t7" />
+
+    <Button
+        android:id="@+id/n7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="18dp"
+        android:onClick="tonews8"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/p7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginBottom="14dp"
+        android:onClick="backnews6"
+        android:text="PREVIOUS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

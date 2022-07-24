@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".News3">
+
+    <TextView
+        android:id="@+id/h3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginRight="160dp"
+        android:text="SIC"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:text="FBI Closes In On Hillary!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/h3" />
+
+    <TextView
+        android:id="@+id/a3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:text="The Doc"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title3" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="335dp"
+        android:layout_height="428dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:text="FBI Closes In On Hillary! Posted on Home » Headlines » World News » FBI Closes In On Hillary! \nWe now have 5 separate FBI cases probing the Hillary-Bill Clinton inner circle. Here is the background on those 5 cases and all of the major players that we are going to cover: \n\nFIVE INVESTIGATIONS UNDERGOING BY THE FBI ON CLINTON, THE CLINTON FOUNDATION AND INNER CIRCLE/TRUMP SURPASSES CLINTON IN THE POLLS/DEUTSCHE BANK STOCK PLUMMETS AGAIN/DB’S CHIEF ECONOMIST BLASTS THE ECB AGAIN: THEY MUST BE HURTING!/569,000 OZ ADDED TO THE SLV/2.67 TONNES ADDED TO THE GLD \nGold closed at $1306.40 up $20.40 \nsilver closed at $18.66 or up 47 cents. \nAccess market prices: THE DAILY GOLD FIX REPORT FROM SHANGHAI AND LONDON \n. \nThe Shanghai fix is at 10:15 pm est and 2:15 am est \nThe fix for London is at 5:30 am est (first fix) and 10 am est (second fix) \nThus Shanghai’s second fix corresponds to 195 minutes before London’s first fix. \nAnd now the fix recordings: \nShanghai morning fix Nov 2 ( 10:15 pm est last night): $ 1294.53 \nNY ACCESS PRICE: $1289.70 (AT THE EXACT SAME TIME) \nShanghai afternoon fix: 2: 15 am est (second fix/early morning):$ 1296.08 \nNY ACCESS PRICE: 1291.70 (AT THE EXACT SAME TIME/2:15 am) \nHUGE SPREAD TODAY!! 4 dollars \n\nLondon Fix: Nov 2: 5:30 am est : $1295.85 (NY: same time: $1296.10: 5:30AM ) \nLondon Second fix Nov 2: 10 am est : $1303.75 (NY same time: $1301.75 , 10 AM ) \nShanghai premium in silver over NY: 59 cents. \nIt seems that Shanghai pricing is higher than the other two , (NY and London). The spread has been occurring on a regular basis and thus I expect to see arbitrage happening as investors buy the lower priced NY gold and sell to China at the higher price."
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a3" />
+
+    <Button
+        android:id="@+id/c3"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:onClick="alert3"
+        android:text="CHECK"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t3" />
+
+    <Button
+        android:id="@+id/p3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="backnews2"
+        android:text="PREVIOUS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/n3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="tonews4"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

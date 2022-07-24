@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".News4">
+
+    <TextView
+        android:id="@+id/h4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginRight="160dp"
+        android:text="SIC"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title4"
+        android:layout_width="293dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:gravity="center"
+        android:text="US Officials See No Link Between Trump and Russia"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/h4" />
+
+    <TextView
+        android:id="@+id/a4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginRight="144dp"
+        android:text="Jason Ditz"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title4" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="336dp"
+        android:layout_height="323dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:text="Clinton Campaign Demands FBI Affirm Trump's Russia Ties   \nWith the 2016 election campaign winding down, the Clinton campaign is ratcheting up demands for the FBI to publicly confirm the campaign’s allegations that Republican nominee Donald Trump is secretly in league with Russia. Sen. Harry Reid (D – NV) went so far as to claim the FBI has secret “explosive” evidence of coordination between the Trump campaign and the Russian government that it is withholding. \nFBI officials familiar with their investigations into the allegations, which the Clinton campaign started publicizing around the Democratic National Convention, say they’ve turned up nothing to connect Trump and Russia , leading FBI Director James Comey to decide against making any statements to that effect. \nThe Clinton campaign has been making the allegations so long that they have taken to claiming “everyone knows” that they are true, and appears unsettled by the FBI’s refusal to sign off on the claims simply because they haven’t been able to find real evidence corroborating the story. \nThe Trump campaign has repeatedly denied ties to Russia, but that didn’t stop Clinton from calling Trump a “puppet” of Russian President Vladimir Putin during the final presidential debate. The calls have grown since Friday’s FBI report to Congress about further Clinton emails being sought. \nWith Clinton’s main campaign scandal growing in the waning weeks of the deal, some in her campaign have suggested that affirming Trump as secretly in league with the Russians would only be fair. Absent any evidence, however, it appears that won’t be happening."
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a4" />
+
+    <Button
+        android:id="@+id/c4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginRight="144dp"
+        android:onClick="alert4"
+        android:text="CHECK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t4" />
+
+    <Button
+        android:id="@+id/p4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginBottom="33dp"
+        android:onClick="backnews3"
+        android:text="PREVIOUS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/n4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="35dp"
+        android:onClick="tonews5"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

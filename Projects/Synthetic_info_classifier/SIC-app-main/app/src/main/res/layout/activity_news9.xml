@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".News9">
+
+    <TextView
+        android:id="@+id/h9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginRight="168dp"
+        android:text="SIC"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title9"
+        android:layout_width="277dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:text="All 100 Senators Contacted Russian Government This Week"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/h9" />
+
+    <TextView
+        android:id="@+id/a9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginRight="128dp"
+        android:text="Joel B. Pollak"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title9" />
+
+    <TextView
+        android:id="@+id/t9"
+        android:layout_width="325dp"
+        android:layout_height="368dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:text="Attorney General Jeff Sessions found himself at the center of controversy this week because he answered a question about the Trump campaign’s contacts with the Russian government without talking about his contacts as a United States Senator. [The assumption made by the media, the Democrats, and even some Republicans was that even routine contact with the Russian government is burdened by suspicion of collusion. Not since the McCarthy era have suspicions reached such levels.  But if Sessions ought to resign, perhaps the entire Senate should quit. Because on Monday  —   two days before the Washington Post broke the highly scandalous story that Sessions had met the Russian ambassador twice in the course of his duties  —   every single United States Senator had formal contact with the Russian government. And not just any functionary: they had contact with Russian President Vladimir Putin himself. Worse (apparently) still, they initiated the contact with the Russians. The contact was a letter, signed by the entire Senate, urging Putin to release a valuable library of Jewish religious texts that was seized by earlier Russian regimes and which has been the subject of a legal and diplomatic dispute in recent decades."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a9" />
+
+    <Button
+        android:id="@+id/c9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginRight="128dp"
+        android:onClick="alert9"
+        android:text="CHECK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t9" />
+
+    <Button
+        android:id="@+id/p9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="backnews8"
+        android:text="PREVIOUS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/n9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="tonews10"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".News2">
+
+    <TextView
+        android:id="@+id/h2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginRight="164dp"
+        android:text="SIC"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="287dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:gravity="center"
+        android:text="MRI Shows Detailed Images of 20-Week Unborn Babies - Breitbart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/h2" />
+
+    <TextView
+        android:id="@+id/a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginRight="132dp"
+        android:gravity="center"
+        android:text="Dr. Susan Berry"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title2" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="340dp"
+        android:layout_height="354dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:text="A newly developed MRI scan allows parents to see detailed images of the beating heart of even a   unborn baby, as well as clear pictures of the baby stretching its legs and even swallowing in the womb. [The new scan, developed by a   team of medical researchers, could replace the somewhat grainy ultrasound images parents are more accustomed to viewing during pregnancy.  UK video parenting site ChannelMum is sharing the video, created by the iFind project, which shows an MRI scan of a baby at 20 weeks. Cathy Ranson, who edits the site, says, “Scans are amazing as they help mums, dads and even other family members bond with their baby. ”    “There is nothing quite as emotional as seeing your unborn child moving inside you, and these MRI scans are taking images to the next level,” she adds. “They are truly breathtaking. ” According to the Daily Mail, the new scan is also revving up the abortion debate in the UK once again since, with the new technology, parents and doctors can see clearly how fully formed an unborn baby is at 20 weeks. Currently, the legal abortion limit in the UK is 24 weeks. “Health Secretary Jeremy Hunt has previously supported slashing the limit to 12 weeks and there have also been calls to reduce it to 20 weeks,” says the report. With a   administration now in the White House in the United States, national leaders who oppose abortion are hoping to pass the   Unborn Child Protection Act, which would ban most abortions past the   mark, into law. Dr. David Lloyd, a clinical research fellow at King’s College London who has participated in the project, says, “Taking pictures of a 20 week fetus while they’re still in the womb really isn’t that easy. ” He explains: For one thing, they’re very small"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a2" />
+
+    <Button
+        android:id="@+id/c2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginRight="132dp"
+        android:onClick="alert2"
+        android:text="CHECK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t2" />
+
+    <Button
+        android:id="@+id/p2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="34dp"
+        android:onClick="backnews1"
+        android:text="PREVIOUS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/n2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginBottom="34dp"
+        android:onClick="tonews3"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

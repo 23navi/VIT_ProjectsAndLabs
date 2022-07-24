@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sic">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logosic"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logosic"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SIC">
+        <activity android:name=".News9"></activity>
+        <activity android:name=".News8" />
+        <activity android:name=".News7" />
+        <activity android:name=".News10" />
+        <activity android:name=".News6" />
+        <activity android:name=".News5" />
+        <activity android:name=".News4" />
+        <activity android:name=".News3" />
+        <activity android:name=".News2" />
+        <activity android:name=".News1" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

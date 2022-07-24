@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".News6">
+
+    <TextView
+        android:id="@+id/h6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="178dp"
+        android:layout_marginRight="178dp"
+        android:text="SIC"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:gravity="center"
+        android:text="Franken Calls for ’Independent Investigation’ Into Trump’s ’Putin Crush’ - Breitbart"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/h6" />
+
+    <TextView
+        android:id="@+id/a6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:text="Pam Key"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title6" />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="345dp"
+        android:layout_height="353dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:gravity="center"
+        android:text="Sunday on CNN’s “State of the Union,” in reacting to reports about President Donald Trump’s national security adviser Michael Flynn’s phone conversations with a Russian ambassador, Sen. Al Franken ( ) said, “We need to have an independent investigation on it” because what he said was Trump having a “Putin crush. ”  Partial transcript as follows: FRANKEN: There is a lot here that we need to look at, and we need to have an independent investigation on it. TAPPER: When you say independent, what do you mean, independent counsel, select committee? FRANKEN: I think an independent counsel would be terrific but I know that Lindsey Graham and Sheldon Whitehouse in Judiciary are doing  —   did doing hearinngs and investigation. I trust those guys. There’s something going on in intelligence and that’s opaque. We need something transparent and we need an investigation because we don’t know what he owes Russia. We don’t know how many Russian oligarchs have invested in his business. He has saddled up to Putin in so many ways. What he’s doing in Syria is great. TAPPER: Yeah. FRANKEN: He didn’t, you know, annex Crimea and going after NATO. There’s something  —   he’s got a bit of a Putin crush, and there’s  —   I want to know how much of that is tied to maybe financial strings? Follow Pam Key on Twitter @pamkeyNEN"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a6" />
+
+    <Button
+        android:id="@+id/c6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginRight="136dp"
+        android:onClick="alert6"
+        android:text="CHECK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t6" />
+
+    <Button
+        android:id="@+id/p6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginBottom="19dp"
+        android:onClick="backnews5"
+        android:text="PREVIOUS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/n6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="39dp"
+        android:layout_marginBottom="21dp"
+        android:onClick="tonews7"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".News1">
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="304dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:gravity="center"
+        android:text="Mary Tyler Moore Is Mourned by Dick Van Dyke and Other Stars - The New York Times"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/h1" />
+
+    <Button
+        android:id="@+id/n1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:onClick="tonews2"
+        android:text="NEXT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t1" />
+
+    <Button
+        android:id="@+id/p1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="68dp"
+        android:onClick="backnews10"
+        android:text="PREVIOUS"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t1" />
+
+    <TextView
+        android:id="@+id/h1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginRight="160dp"
+        android:text="SIC"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/c1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:onClick="alert1"
+        android:text="CHECK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t1" />
+
+    <TextView
+        android:id="@+id/a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:text="Niraj Chokshi and Liam Stack"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title1" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="278dp"
+        android:layout_height="356dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:gravity="center"
+        android:text="Mary Tyler Moore, whose iconic television roles reflected the changing place of women in   America, died on Wednesday, eliciting an outpouring of tributes on social media. Dick Van Dyke, who played Ms. Moore’s husband in the 1960s sitcom “The Dick Van Dyke Show,” said on Twitter that Ms. Moore had changed his life for the better. Other former   and   friends also shared their grief and gratitude online. They included the actors Ed Asner, who played her boss at a local television station in the 1970s sitcom “The Mary Tyler Moore Show,” Ben Stiller and Patricia Arquette, who   with her in the 1996 movie “Flirting With Disaster,” and Michael Keaton, who appeared on her   variety show “Mary. ” Some remembered Ms. Moore as a role model who portrayed strong female characters onscreen. They included Oprah Winfrey, who has said she grew up inspired by Ms. Moore, as well as Ellen Degeneres, Marlee Matlin and George Takei, all of whom described Ms. Moore as a trailblazer. The comedian and actor Stephen Fry said he was rehearsing on Wednesday at the stage where “The Mary Tyler Moore Show” was produced, adding that he and others observed a minute of silence in her honor. Female journalists felt a special affinity for Ms. Moore, who starred in that show as Mary Richards, a news producer at a Minneapolis television station."
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".News10">
+
+    <TextView
+        android:id="@+id/h10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:text="SIC"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:text="Teacher Suspended for Allowing Students to Hit Trump Pinata for Cinco de Mayo"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/h10" />
+
+    <TextView
+        android:id="@+id/a10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp"
+        android:text="Katherine Rodriguez"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title10" />
+
+    <TextView
+        android:id="@+id/t10"
+        android:layout_width="275dp"
+        android:layout_height="333dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="A high school Spanish teacher from Colorado has been suspended after she reportedly made a piñata with President Trump’s face on it and allowed her students to hit it. [Johnstown Milliken School District Superintendent Martin Foster said the incident took place at Roosevelt High School in Johnstown during the Spanish class’s celebration of Cinco de Mayo, CBS Denver reported.  “This was an incredibly disrespectful act that does not reflect the values of Roosevelt High School or the school district,” Foster said in a statement. The teacher’s name has not yet been released. Photos and video of the incident circulated on Facebook and Snapchat, offending many parents. “He’s been defeated,” read one caption of a Snapchat photo showing two students holding up the   piñata with Trump’s face on it. One parent, Lesley Hollywood, posted the Snapchats to Facebook and shared her displeasure with the incident: “It is disturbing that this would be happening in a school setting,” Hollywood told CBS Denver. “Why divide people? Why do this? There are so many other ways we can address politics in schools. ” Hollywood said that according to some of the students, the piñata also featured an image of Mexican President Enrique Peña Nieto. “I wouldn’t of cared if it was Obama’s face on that piñata, or if it had been Hillary Clinton’s face,” Hollywood added. “It doesn’t matter. This is not how we should be teaching our children politics in this country. ” KDVR reported that the district will launch an investigation starting Monday."
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a10" />
+
+    <Button
+        android:id="@+id/c10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginRight="132dp"
+        android:onClick="alert10"
+        android:text="CHECK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t10" />
+
+    <Button
+        android:id="@+id/p10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="19dp"
+        android:onClick="backnews9"
+        android:text="PREVIOUS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/n10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginBottom="18dp"
+        android:onClick="tonews1"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
